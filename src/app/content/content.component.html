@@ -1,0 +1,11 @@
+<div class="content container">
+    <div class="row">
+        <div class="cell col-4" *ngFor="let gif of GIFlist">
+            <div class="wrapper">
+                <img [src]='gif.image' alt="">
+                <p class="title">{{gif.title}}</p>
+                <p class="date">{{gif.date | date: 'MMM d y'}}</p>
+            </div>
+        </div>
+    </div>
+</div>

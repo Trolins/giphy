@@ -1,0 +1,12 @@
+.searchComp {
+    margin-bottom: 35px;
+    .searchInput {
+        max-width: 50%;
+        input {
+            width: 100%;
+            border: none;
+            border-radius: 6px;
+            padding: 5px 15px;
+        }
+    }
+}
